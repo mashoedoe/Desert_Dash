@@ -16,5 +16,7 @@ for s in summary:
  s['maps']=['data:image/jpeg;base64,'+base64.b64encode(page.get_pixmap(matrix=pymupdf.Matrix(1.4,1.4)).tobytes('jpeg')).decode() for page in doc]
  s['points']=np.round(arr,6).tolist();s['gpx']=(B/f'Stage_{s["stage"]}.gpx').read_text();stages.append(s)
 html=(B/'explorer-template.html').read_text(encoding='utf-8').replace('__STAGE_DATA__',json.dumps(stages,separators=(',',':')))
-(B/'Desert_Dash.html').write_text(html,encoding='utf-8')
-print('Created',B/'Desert_Dash.html',len(html),'characters')
+# Written to the repo root for GitHub Pages: https://mashoedoe.github.io/Desert_Dash/stages.html
+out=B.parent.parent/'stages.html'
+out.write_text(html,encoding='utf-8')
+print('Created',out,len(html),'characters')
