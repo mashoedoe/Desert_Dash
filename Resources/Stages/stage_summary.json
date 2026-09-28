@@ -1,0 +1,60 @@
+{
+  "checkpoint_offsets_m": [
+    2.8354308101237264,
+    3.276564212378216,
+    30.163981009752113,
+    89.39747615955672
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "start": "Grove Mall",
+      "finish": "CP1 - Kuiseb / Superspar",
+      "distance_km": 104.62130820091105,
+      "ascent_m": 1213.3321078212875,
+      "descent_m": 1780.7321078212876,
+      "start_index": 0,
+      "end_index": 3905
+    },
+    {
+      "stage": 2,
+      "start": "CP1 - Kuiseb / Superspar",
+      "finish": "CP2 - Hollard",
+      "distance_km": 76.41221939134289,
+      "ascent_m": 1219.9351908674541,
+      "descent_m": 1346.535190867454,
+      "start_index": 3905,
+      "end_index": 7330
+    },
+    {
+      "stage": 3,
+      "start": "CP2 - Hollard",
+      "finish": "CP3 - Bloedkoppe",
+      "distance_km": 86.70799033636447,
+      "ascent_m": 425.3166755561484,
+      "descent_m": 760.7166755561485,
+      "start_index": 7330,
+      "end_index": 11177
+    },
+    {
+      "stage": 4,
+      "start": "CP3 - Bloedkoppe",
+      "finish": "CP4 - Goanikontes",
+      "distance_km": 83.42143597923456,
+      "ascent_m": 246.80311114667057,
+      "descent_m": 737.8031111466705,
+      "start_index": 11177,
+      "end_index": 14789
+    },
+    {
+      "stage": 5,
+      "start": "CP4 - Goanikontes",
+      "finish": "Finish - Platz am Meer",
+      "distance_km": 48.83132671442121,
+      "ascent_m": 349.77036280777793,
+      "descent_m": 490.97036280777803,
+      "start_index": 14789,
+      "end_index": 22367
+    }
+  ]
+}

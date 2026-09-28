@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.claude/
+tmp/
+.env
+
+# Strava tooling and outputs (kept local, not part of this repo)
+strava*
+/README.md
+/requirements.txt
+connect_strava.py
+ride_physiology.py
+update_activity.py
+test_scripts.py
+activities_raw.*
+summary_by_year.csv
+load_daily.csv
+summary.txt
+streams_*.csv
+report_*.txt
+
+# Duplicate of Resources/DDash_Booklet_2025_WEB.pdf
+/DDash_Booklet_2025_WEB.pdf
