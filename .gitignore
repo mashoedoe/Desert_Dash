@@ -6,7 +6,6 @@ tmp/
 
 # Strava tooling and outputs (kept local, not part of this repo)
 strava*
-/README.md
 /requirements.txt
 connect_strava.py
 ride_physiology.py
